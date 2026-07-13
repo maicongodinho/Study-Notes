@@ -148,4 +148,3 @@ D. Enable **Display Element Names** and create the fields using Reports.
 ## Result
 
 - Score: 5/5 (100%)
-```

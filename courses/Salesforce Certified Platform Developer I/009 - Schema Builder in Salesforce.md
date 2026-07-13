@@ -39,8 +39,6 @@ A Salesforce administrator creates several custom fields for the Employee__c obj
 
 **Explanation:** Fields created in Schema Builder must be manually added to the Page Layout before users can see them.
 
----
-
 ### Question 2
 
 A developer wants to inspect how several custom objects are related to each other while reviewing the data model.
@@ -48,8 +46,6 @@ A developer wants to inspect how several custom objects are related to each othe
 **Correct Answer:** B
 
 **Explanation:** Enable **Show Relationships** to display object connections.
-
----
 
 ### Question 3
 
@@ -59,8 +55,6 @@ Your team needs to create 15 new custom fields on an existing custom object as q
 
 **Explanation:** Schema Builder provides the fastest visual workflow for creating multiple fields.
 
----
-
 ### Question 4
 
 A developer creates a custom field using Schema Builder and immediately opens a record page, but the field is still not visible.
@@ -68,8 +62,6 @@ A developer creates a custom field using Schema Builder and immediately opens a 
 **Correct Answer:** A and B
 
 **Explanation:** Verify the Page Layout and allow time for metadata changes to propagate.
-
----
 
 ### Question 5
 

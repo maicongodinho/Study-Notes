@@ -4,18 +4,6 @@
 
 Become Salesforce Certified Platform Developer I.
 
-## Study Streak
-
-- 🔥 Current Streak: 4
-- 🏆 Longest Streak: 4
-- 📅 Last Study: 2026-07-13
-
-## Statistics
-
-- Lessons Completed: 4
-- Questions Answered: 20
-- Accuracy: 100%
-
 ## Lessons
 
 - ✅ Lesson 006 - What is Object, Tabs, User and Profiles in Salesforce: Quick overview

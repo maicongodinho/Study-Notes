@@ -1,0 +1,182 @@
+# Relationship Fields in Salesforce: Types of Relationship in Salesforce
+
+## Summary
+
+Relationship fields connect Salesforce objects, allowing users to easily access related records. Relationships are created by adding a **relationship field** to the **child object**.
+
+Schema Builder provides a visual representation of these relationships, making it easier to understand the data model.
+
+---
+
+## Key Concepts
+
+### Why Use Relationships?
+
+- Associate one object with another.
+- Allow users to navigate between related records.
+- Organize business data logically.
+- Improve the overall data model.
+
+---
+
+### Relationship Categories
+
+Salesforce supports two main relationship categories:
+
+- **One-to-Many (1:N)**
+- **Many-to-Many (M:N)**
+
+---
+
+### One-to-Many Relationship Types
+
+#### Lookup Relationship
+
+- Loosely coupled relationship.
+- Parent and child records exist independently.
+- Child record references one parent.
+- One parent can have many child records.
+
+#### Master-Detail Relationship
+
+- Tightly coupled relationship.
+- Covered in the next lesson.
+
+---
+
+### Other Relationship Types
+
+- External Lookup
+- Indirect Lookup
+- Hierarchical
+
+These relationship types exist but are less common for the Platform Developer I exam.
+
+---
+
+### Parent and Child Objects
+
+Every one-to-many relationship contains:
+
+- **Parent** (the "one")
+- **Child** (the "many")
+
+**Important**
+
+The relationship field is **always created on the child object.**
+
+Example:
+
+```
+Position
+    │
+    ├── Job Application
+    ├── Job Application
+    └── Job Application
+```
+
+The **Job Application** object stores the relationship field that points to **Position**.
+
+---
+
+## Certification Tips
+
+- Relationship fields are created on the **child object**.
+- One parent can have multiple child records.
+- Lookup relationships are **loosely coupled**.
+- Schema Builder is useful for visualizing relationships.
+- Many-to-many relationships are implemented differently (covered later).
+
+---
+
+## Knowledge Check
+
+### Question 1
+
+A company wants each Job Application to be associated with one Position, while allowing each Position to have many Job Applications.
+
+Where should the relationship field be created?
+
+A. Position
+
+B. Both objects
+
+C. Job Application ✅
+
+D. Junction Object
+
+**Answer:** C
+
+---
+
+### Question 2
+
+Why are relationship fields used?
+
+A. Improve Apex performance
+
+B. Associate objects so users can access related data ✅
+
+C. Replace validation rules
+
+D. Automatically enforce security
+
+**Answer:** B
+
+---
+
+### Question 3
+
+Which relationship type allows parent and child records to exist independently?
+
+A. Master-Detail
+
+B. Hierarchical
+
+C. Lookup ✅
+
+D. Many-to-Many
+
+**Answer:** C
+
+---
+
+### Question 4
+
+Which statement correctly describes a one-to-many relationship?
+
+A. One child references many parents.
+
+B. One parent can have many child records. ✅
+
+C. Every parent must have a child.
+
+D. The relationship field is created on the parent.
+
+**Answer:** B
+
+---
+
+### Question 5
+
+What is one of the primary purposes of Schema Builder?
+
+A. Automatically create relationships.
+
+B. Visualize objects and their relationships. ✅
+
+C. Generate Apex classes.
+
+D. Replace Object Manager.
+
+**Answer:** B
+
+---
+
+## Key Takeaways
+
+- Relationships connect Salesforce objects.
+- Relationship fields are always created on the child object.
+- One parent can have many child records.
+- Lookup is a loosely coupled relationship.
+- Schema Builder helps visualize the Salesforce data model.
